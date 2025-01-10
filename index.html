@@ -1,66 +1,56 @@
 <!DOCTYPE html>
-<html class="no-js wf-loading is-en" lang="en">
+<html class="no-js js is-desktop" lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>小孙同学</title>
+    <title>SkalGPT</title>
     <link rel="icon" href="./assets/images/avatar.png">
     <link rel="stylesheet" href="./css/index.css">
     <script>
-        var ua = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
-        document.documentElement.className += /(iPad|iPhone|Android)/i.test(ua) ? ' is-mobile' : ' is-desktop';
         document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-            window.location.href = "https://blog.sunguoqi.com";
-        }
     </script>
     <script defer src="./js/TweenLite.js"></script>
     <script defer src="./js/three.r112.js"></script>
     <script defer src="./js/index.js"></script>
-    <!--统计-->
+    <!-- İstatistik -->
     <script async defer data-website-id="7ce2882a-e80f-49e3-af4d-9d3ebff40661" src="https://umami.sunguoqi.com/umami.js"></script>
 </head>
 
 <body>
-    <!-- 顶部 -->
-    <header id="header" class="font-subheader cache">
-        <div id="header-content">
-            <!-- 站点名称 -->
-            <a aria-label="homepage" id="header-logo" data-has-parsed="true">小孙同学</a>
-            <!-- 导航菜单 -->
-            <ul id="header-menu" class="nav">
-                <!-- 从上往下依次为从右往左 -->
-                <li class="header-menu-item header-item">
-                    <a target="_blank" href="https://plog.sunguoqi.com" data-has-parsed="true">
-                        <div class="header-menu-item-mask">时光相册</div>
-                    </a>
-                </li>
-                <li class="header-menu-item header-item">
-                    <a target="_blank" href="https://blog.sunguoqi.com" data-has-parsed="true">
-                        <div class="header-menu-item-mask">个人博客</div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="header-menu-btn"></div>
-    </header>
-    <!-- 画布 -->
+    <!-- En Üst Kısım -->
+<header id="header" class="font-subheader cache">
+    <div id="header-content">
+        <!-- Site Adı -->
+        <a aria-label="homepage" id="header-logo" data-has-parsed="true">SkalGPT</a>
+        <!-- Navigasyon Menüsü -->
+        <ul id="header-menu" class="nav">
+            <!-- Yukarıdan aşağıya, sağdan sola. -->
+            <li class="header-menu-item header-item">
+                <a target="_blank" href="https://ciglisezaikarakoc.meb.k12.tr/" data-has-parsed="true">
+                    <div class="header-menu-item-mask">Sezai Karakoç Anadolu Lisesi</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="header-menu-btn"></div>
+</header>
+    <!-- Canvas -->
     <canvas id="canvas"></canvas>
-    <!-- 主体 -->
+    <!-- Ana Bölüm -->
     <div id="app">
         <div id="main" data-scroll-tooltip="Scroll to begin">
             <div id="main-scroll">
                 <div id="page-container">
                     <main id="about" class="page is-about" data-id="about" data-page-id="about" data-url="about"
                         data-title="热爱可抵漫长岁月！">
-                        <!-- 第一节 -->
+                        <!-- Bölüm 1 -->
                         <section id="about-hero" class="hero is-full">
                             <div id="about-hero-context" class="hero-context flex-vertical">
                                 <div class="hero-inner"
                                     style="transform: translate3d(0px, 0px, 0px); opacity: 1; visibility: visible;">
                                     <h1 id="about-hero-title" class="hero-title flex-vertical"
                                         style="visibility: visible;">
-                                        Welcome to my website
+                                        SkalGPT ile tannışın
                                     </h1>
                                     <h4 id="about-hero-desc" class="hero-desc flex-vertical"
                                         style="visibility: visible;">
@@ -68,32 +58,34 @@
                                 </div>
                             </div>
                         </section>
-                        <!-- 第二节 -->
-                        <section id="about-blog" class="is-full margin-bottom-full">
-                            <div id="about-blog-context" class="sec-context flex-vertical">
-                                <div class="sec-context-inner is-right darker-bg" style="opacity: 0;">
-                                    <h3 id="about-blog-title" class="about-sec-title font-header"></h3>
-                                    <h4 id="about-blog-subtitle" class="about-sec-subtitle font-header">MESSAGE</h4>
-                                    <div id="about-blog-desc" class="about-sec-desc">
-                                        你好哇，我是小孙同学，一个心怀梦想，热爱生活的Coder...
-                                        <br>
-                                        <br>
-                                        <b>「天堂旅行团」</b>亲爱的，你知道吗？这世界不停开花，我想放进你心里一朵.
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- 第三节 -->
+                        <!-- Bölüm 2 -->
+<section id="about-blog" class="is-full margin-bottom-full">
+    <div id="about-blog-context" class="sec-context flex-vertical">
+        <div class="sec-context-inner is-right darker-bg" style="opacity: 0;">
+            <h3 id="about-blog-title" class="about-sec-title font-header"></h3>
+            <h4 id="about-blog-subtitle" class="about-sec-subtitle font-header">Merhaba</h4>
+            <div id="about-blog-desc" class="about-sec-desc">
+                SkalGPT, metin anlama, dilsel analiz ve üretim yeteneklerinin yanı sıra matematiksel problemleri çözme ve verimli işlem yapma konularında da güçlüdür. Karmaşık dil yapılarını çözümleyebilirken, aynı zamanda sayısal verileri işleyebilir ve matematiksel hesaplamalar yapabilir. Bu sayede, dilsel görevlerin yanı sıra hesaplama ve optimizasyon gerektiren durumlarda da etkili çözümler sunar. SkalGPT, hem dilsel hem de matematiksel açıdan yüksek verimlilikle çalışarak, kullanıcılara hızlı ve doğru sonuçlar sağlar.
+            </div>
+        </div>
+    </div>
+</section>
+                        <!-- Bölüm 3 -->
                         <section id="about-services" class="is-full">
-                            <div id="about-services-context" class="sec-context flex-vertical">
-                                <div class="sec-context-inner is-right darker-bg" style="opacity: 0;">
-                                    <h3 id="about-services-title" class="about-sec-subtitle">如果再也见不到你，那我祝你早安、午安、晚安！</h3>
-                                    <h4 id="about-services-subtitle" class="about-sec-title font-header"></h4>
-                                    <div id="about-services-items"></div>
-                                    <div id="about-services-items"></div>
-                                </div>
-                            </div>
-                        </section>
+    <div id="about-services-context" class="sec-context flex-vertical">
+        <div class="sec-context-inner is-right darker-bg" style="opacity: 0;">
+            <h3 id="about-services-title" class="about-sec-subtitle">如果再也见不到你，那我祝你早安、午安、晚安！</h3>
+            <h4 id="about-services-subtitle" class="about-sec-title font-header"></h4>
+            <div id="about-services-items"></div>
+            <div id="about-services-items"></div>
+            <!-- Sezai Karakoç'un sözü -->
+            <div id="quote" style="position: relative; text-align: right; font-style: italic; margin-top: 20px;">
+                <p>"Gelecek, insanın kendisini bulacağı yerdir."</p>
+                <p style="position: absolute; bottom: 0; right: 0; font-size: 12px; font-style: italic;">Sezai Karakoç</p>
+            </div>
+        </div>
+    </div>
+</section>
 
                         <div class="is-full"></div>
                     </main>
